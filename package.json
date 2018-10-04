@@ -44,7 +44,7 @@
       "cordova-plugin-ionic": {
         "APP_ID": "79ddaf0e",
         "CHANNEL_NAME": "Master",
-        "UPDATE_METHOD": "background",
+        "UPDATE_METHOD": "auto",
         "MAX_STORE": "2"
       },
       "phonegap-plugin-barcodescanner": {}
