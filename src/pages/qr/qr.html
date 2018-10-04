@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>Qr</ion-title>
   </ion-navbar>
 
@@ -14,5 +14,17 @@
 
 
 <ion-content padding>
+	<br>
+	<br>
+	<br>
 
+	<div>
+		<button ion-button block (click)="scan()" color="secondary">Scan</button>
+		<div ngif="scannedData.text">
+			<label>
+				Your Code is:
+			</label>
+			<span>{{scannedData.text}}</span>
+		</div>
+	</div>
 </ion-content>

@@ -88,4 +88,5 @@
         <variable name="UPDATE_METHOD" value="background" />
         <variable name="MAX_STORE" value="2" />
     </plugin>
+    <plugin name="phonegap-plugin-barcodescanner" spec="8.0.0" />
 </widget>
